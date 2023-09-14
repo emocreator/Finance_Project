@@ -1,6 +1,8 @@
-# Finance Pricing Models
+# Finance Project/Pricing Models
 
-This project contains implementations and analysis of pricing models using Python.
+This project contains:
+a) implementations and analysis of pricing models using Python.
+b) implementations/analysis of the stock market using Python for data analysis.
 
 ## Folder Structure
 
@@ -13,6 +15,9 @@ Contains a Jupyter notebook (B_s.ipynb) implementing the Black-Scholes formula f
 **Linear_Algebra_Behind_Option** 
 
 Contains a notebook (labo.ipynb) explaining the linear algebra concepts behind options pricing.
+
+**Stock_Market_Analysis**
+Contains a notebook (SMA.ipynb) retrieving  historical data and performs analysis using Python and Pandas.
 
 ## Models
 
