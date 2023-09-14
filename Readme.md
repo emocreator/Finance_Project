@@ -12,7 +12,7 @@ There are Three main folders:
 
 **Black-Scholes**
 
-Contains a Jupyter notebook [B_s.ipynb](https://github.com/emocreator/hotel-booking-eda/blob/main/hotel_bookings.csv) implementing the Black-Scholes formula for European option valuation.
+Contains a Jupyter notebook [B_s.ipynb](https://github.com/emocreator/Finance_Project/blob/main/Black%20Scholes/B_S.ipynb) implementing the Black-Scholes formula for European option valuation.
 
 **Linear_Algebra_Behind_Option** 
 
