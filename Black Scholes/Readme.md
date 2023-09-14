@@ -39,6 +39,7 @@ p = Ke^(-rT)*N(-d2) - S0*N(-d1)
 5. Return the value c or p depending on the option_type parameter
 
 6. To make the profit, the asset price at the option expiry should correspond the following rule:
+   
 ```9 – 1.0298 – Price > 0, i.e., Price < 7.97```
 
 ## Usage
