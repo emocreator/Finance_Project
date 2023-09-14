@@ -19,7 +19,7 @@ Contains a Jupyter notebook [B_s.ipynb](https://github.com/emocreator/Finance_Pr
 Contains a notebook [labo.ipynb](https://github.com/emocreator/Finance_Project/blob/main/Linear_Algebra_Behind_Option/labo.ipynb) explaining the linear algebra concepts behind options pricing.
 
 **Stock_Market_Analysis**
-Contains a notebook [SMA.ipynb](https://github.com/emocreator/hotel-booking-eda/blob/main/hotel_bookings.csv) retrieving  historical data and performs analysis using Python and Pandas.
+Contains a notebook [SMA.ipynb](https://github.com/emocreator/Finance_Project/blob/main/Stock_Market_Analysis/SMA.ipynb) retrieving  historical data and performs analysis using Python and Pandas.
 
 ## Models
 
