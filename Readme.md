@@ -1,7 +1,9 @@
 # Finance Project/Pricing Models
 
 This project contains:
+
 a) implementations and analysis of pricing models using Python.
+
 b) implementations/analysis of the stock market using Python for data analysis.
 
 ## Folder Structure
