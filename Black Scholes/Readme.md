@@ -25,13 +25,15 @@ d2 = d1 - sigma*sqrt(T)
 3. For a call option:  
 
 ```py
-c = S0*N(d1) - Ke^(-rT)*N(d2)```
+c = S0*N(d1) - Ke^(-rT)*N(d2)
+```
 
 
 4. For a put option:
 
 ```py
-p = Ke^(-rT)*N(-d2) - S0*N(-d1) ```
+p = Ke^(-rT)*N(-d2) - S0*N(-d1)
+```
 
 
 5. Return the value c or p depending on the option_type parameter
