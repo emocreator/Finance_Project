@@ -8,7 +8,7 @@ b) implementations/analysis of the stock market using Python for data analysis.
 
 ## Folder Structure
 
-There are two main folders:
+There are Three main folders:
 
 **Black-Scholes**
 
