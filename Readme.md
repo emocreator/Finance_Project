@@ -8,7 +8,7 @@ b) implementations/analysis of the stock market using Python for data analysis.
 
 ## Folder Structure
 
-There are Three main folders:
+There are 4 main folders:
 
 **Black-Scholes**
 
@@ -21,6 +21,10 @@ Contains a notebook [labo.ipynb](https://github.com/emocreator/Finance_Project/b
 **Stock_Market_Analysis**
 
 Contains a notebook [SMA.ipynb](https://github.com/emocreator/Finance_Project/blob/main/Stock_Market_Analysis/SMA.ipynb) retrieving  historical data and performs analysis using Python and Pandas.
+
+**Simple Moving average**
+
+Contains a notebook [SMA.ipynb](https://github.com/emocreator/Finance_Project/blob/main/SMA(SimpleMovingAverage)/SMA.ipynb) retrieving  historical data and performs analysis using Python and Pandas.
 
 ## Models
 
