@@ -51,4 +51,8 @@ The models can be used to price European and American options. The notebooks con
 
 The linear algebra notebook also explains how matrix operations can derive the risk-neutral pricing used in these models.
 
-Together, these notebooks provide an introduction to implementing and understanding key option pricing techniques in Python.
+These notebooks provide an introduction to implementing and understanding key option pricing techniques in Python.
+
+## Author
+
+- [Rabbit](https://github.com/emocreator)
