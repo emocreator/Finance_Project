@@ -1,42 +1,42 @@
-# Stock Analysis with Python
+# Stock Data Analysis
 
-This project provides a detailed analysis of stock prices for a selected list of securities using Python's powerful data analysis libraries.
+This script provides an in-depth analysis of stock data for various symbols. It fetches historical stock data, performs various data transformations, and visualizes the results.
 
 ## Libraries Used:
-- yfinance: To fetch stock data.
-- pandas: For data manipulation and analysis.
-- numpy: For numerical calculations.
-- matplotlib: For plotting.
+- `yfinance`: For fetching stock data.
+- `warnings`: To suppress any warnings for cleaner output.
+- `pandas`: For data manipulation and analysis.
+- `matplotlib`: For data visualization.
+- `numpy`: For numerical operations.
 
-## Overview:
+## Features:
 
-1. **Data Fetching**:
-    - A list of stock symbols is provided, which includes major companies and indices.
-    - Stock data is fetched from Yahoo Finance for each stock symbol from January 1, 2010, to the present day.
+1. **Data Retrieval and Merging**: 
+   - Fetches closing price data from 2010-01-01 till now for a predefined list of stock symbols.
+   - Merges individual stock dataframes into a unified dataframe based on the 'Date' column.
+   
+2. **Data Visualization**:
+   - Plots the closing prices for all stocks in separate subplots.
+   - Displays summary statistics, mean, and data information.
+   - Plots mean percentage change for stocks.
+   
+3. **Data Analysis**:
+   - Calculates differences between consecutive rows to get day-over-day change.
+   - Calculates percentage changes between consecutive rows.
+   - Calculates log returns for stock data.
+   - Determines positions based on moving averages' cross.
+   - Fits a linear regression between `^SPX` and `^VIX` returns.
+   - Calculates rolling correlation between `^SPX` and `^VIX` returns.
 
-2. **Data Analysis**:
-    - All fetched data is merged on the 'Date' column to create a unified dataframe.
-    - Basic statistics are derived from the merged data, including mean, standard deviation, and percent change.
-    - The data is visualized using line plots and bar plots for a clearer understanding of stock price movements.
-    - Log returns for the stocks are calculated and analyzed.
-    - Cumulative returns are plotted.
-    - Data is resampled to weekly and monthly intervals for a different perspective.
-    - Rolling statistics, including min, max, mean, and standard deviation, are calculated.
-    - Moving averages are used to derive trading positions based on crossovers.
-    - Specific stocks and indices are visualized together, with one being used as a secondary axis for better comparison.
+4. **Data Resampling**:
+   - Resamples data to weekly and monthly frequency.
+   
+5. **Rolling Statistics**:
+   - Calculates rolling statistics for the `AAPL` stock.
+   
+6. **Scatter Matrices**:
+   - Creates scatter matrices for returns with histogram and kernel density estimates.
 
-3. **Visualization**:
-    - Scatter matrices are created for the returns to analyze the relationships between different stocks/indices.
-    - Different visualizations are used to present stock data, returns, moving averages, and trading positions.
+## Visualization:
 
-## Key Insights:
-- The project provides a holistic view of the stock prices and their movements over time.
-- Moving averages and their crossovers provide potential trading signals.
-- Scatter matrices give insights into the relationships and correlations between different stocks/indices.
-
-## Getting Started:
-1. Ensure all required libraries are installed.
-2. Clone the repository and navigate to the project directory.
-3. Run the Python script to fetch the data and perform the analysis.
-4. Visualizations will be plotted in your default browser or Jupyter environment.
-
+The script uses `matplotlib` to visualize data in various formats such as line plots, bar plots, and scatter plots. It also uses the scatter matrix functionality of `pandas` to visualize relationships between different stock returns.
