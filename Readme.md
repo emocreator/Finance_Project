@@ -55,4 +55,4 @@ These notebooks provide an introduction to implementing and understanding key op
 
 ## Author
 
-- [Rabbit](https://github.com/emocreator)
+- [Gudfit](https://github.com/emocreator)
